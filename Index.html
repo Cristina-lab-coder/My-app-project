@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ec0e12670a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <form action="" class="form" id ="search-form">
+                <input type="text" 
+                placeholder="Enter your city"
+                autocomplete="off" 
+                autofocus = "on"
+                id="search-text-input">
+                <input type="submit" value="Go!">
+            </form>
+            <br>
+            <h1>
+                Today in<span city id="city-answer"> Lleida </span>
+            </h1>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <ul class="atributes">
+                        <li>
+                            Precipitation 93%
+                        </li>
+                        <li>
+                            Humidity 100%
+                        </li>
+                        <li>
+                            Wind 8 km/h
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="cityone">
+                        <li>
+                            Lleida
+                        </li>
+                        <li >
+                            <span id="day">
+                            Sunday
+                            </span>
+                            <span id="hour"> 7:00 
+                                </span id="meridiem">pm
+                        </li>
+                        <li>
+                            Rain
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="cityTemp">
+                                <li class="number">
+                                    8º
+                                </li>
+                                <span class="units"> 
+                                    <a href="#" id="celcius-link">ºC</a>
+                                    <a href="#" id="fahrenheit-link">ºF</a>
+
+                                </span>
+                                <li>
+                                    max 2º
+                                </li>
+                                <li>
+                                    min -6º
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/dosnuvols.jpg" alt="dosnuvols" class="dosnuvols">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <h2>
+                Next 5 days...
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <p>
+                                Tuesday
+                            </p>
+                            <img src="images/dosnuvols.jpg" alt="dosnuvols" class="temps">
+                            <p>
+                                MAX 10ºC
+                                <br>
+                                MIN -2ºC
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <p>
+                                Wednesday
+                            </p>
+                            <img src="images/gotespluja.jpg" alt="gotespluja" class="temps">
+                            <p>
+                                MAX 10ºC
+                                <br>
+                                MIN -2ºC
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <p>
+                                Thursday
+                            </p>
+                            <img src="images/nuvolneu.jpg" alt="nuvolneu" class="temps">
+                            <p>
+                                MAX 10ºC
+                                <br>
+                                MIN -2ºC
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <p>
+                                Friday
+                            </p>
+                            <img src="images/nuvolvent.jpg" alt="nuvolvent" class="temps">
+                            <p>
+                                MAX 10ºC
+                                <br>
+                                MIN -2ºC
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <p>
+                                Saturday
+                            </p>
+                            <img src="images/solnuvol.jpg" alt="solnuvol" class="temps">
+                            <p>
+                                MAX 10ºC
+                                <br>
+                                MIN -2ºC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="src/javascript.js"></script>
+</body>
+
+</html>
+   
+</div>

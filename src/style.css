@@ -1,0 +1,76 @@
+body {
+  font-family: spartan;
+  font-weight: bolder;
+}
+img {
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+.nuvolvent {
+  top: 0;
+  width: 50px;
+}
+.cityone {
+  font-size: 20px;
+  text-align: left;
+}
+.atributes {
+  font-size: 20px;
+  text-align: left;
+}
+.cityTemp {
+  font-size: 15px;
+  text-align: right;
+}
+.number {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #42c0eb;
+}
+h1 {
+  font-size: 30px;
+  color: #42c0eb;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 30px;
+  color: #42c0eb;
+  font-weight: bolder;
+}
+hr {
+  color: #42c0eb;
+  font-weight: bolder;
+}
+.form {
+  position: static;
+  font-size: 20px;
+}
+.temps {
+  width: 80px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.col-4 {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.p-3 {
+  border-radius: 20px;
+  font-size: 15px;
+}
+.weather-app {
+  border: 1px solid #42c0eb;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  max-width: 900px;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.dosnuvols {
+  width: 100px;
+}
